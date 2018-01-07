@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----------bagrund----------*/
+
+body {
+    background-color: #01A4EF;
+    background-image: url(img/tema1.svg);
+    background-size: 90em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*----------header------------*/
+
+header {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: #434343;
+    position: fixed;
+    z-index: 100;
+}
+
+header nav {
+    margin: 0 0vw 0 0;
+}
+
+#cl {
+    margin-right: 0vw;
+    padding-left: 10px;
+}
+
+#cl:hover {
+    color: #01A4EF;
+}
+
+header nav a {
+    color: white;
+    padding-left: 50px;
+    margin: 0;
+    font-family: 'roboto';
+    font-size: 18px;
+    display: inline;
+}
+
+header nav a:hover {
+    color: #01A4EF;
+}
+
+@media screen and (max-width: 376px) {
+    header nav a {
+        color: black;
+        display: block;
+    }
+    header {
+        padding: 5px;
+    }
+}
+
+.imgg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*----------logo--------------*/
+
+#splash {
+    height: 70vh;
+    width: 100%;
+}
+
+#splash div {
+    position: absolute;
+    align-self: center;
+    width: 50vw;
+    top: 20vh;
+    left: 25vw;
+}
+
+#Stilartsite {
+    background-color: rgb(67, 67, 67);
+}
+
+#CCB {
+    background-color: #262525;
+}
+
+#fyld1 {
+    background-color: rgba(67, 67, 67, 0.85);
+}
+
+
+/*---------flex-----------*/
+
+
+/*--parent--*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh;
+}
+
+
+/*--child--*/
+
+.column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 0 10vh 15vh 10vh;
+}
+
+
+/*---------color----------*/
+
+p {
+    font-size: 1.3vw;
+    color: whitesmoke;
+    padding-right: 15vw;
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-size: 2vw;
+    font-family: 'Roboto';
+    color: whitesmoke;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 1em;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a p:hover {
+    color: #01A4EF;
+}
+
+a p {
+    text-align: center;
+    padding-right: 0vw;
+}
+
+
+/*-------- img -----*/
+
+img {
+    max-width: 70%;
+    max-height: 100%;
+    left: 29%;
+}

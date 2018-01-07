@@ -1,0 +1,150 @@
+/*---- parent ----*/
+
+.sectionwrapper {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+
+.boxhome {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    width: 42vw;
+    position: absolute;
+    left: 29%;
+}
+
+.content {
+    flex-basis: 100px;
+    flex-grow: 4;
+    padding: 20px;
+}
+
+
+/*---- child ----*/
+
+.column {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: beige;
+}
+
+.column_wide {
+    flex-basis: 300px;
+    flex-grow: 2;
+    padding: 20px;
+}
+
+.column_narrow {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+/*---- box'z ----*/
+
+.box1 {
+    background-color: #01A4EF;
+    width: 20vw;
+    height: 20vw;
+    margin: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.box1:hover {
+    background-color: rgba(1, 164, 239, 0.85);
+}
+
+.box2 {
+    background-color: #F25022;
+    width: 20vw;
+    height: 20vw;
+    margin: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.box2:hover {
+    background-color: rgba(242, 80, 34, 0.85);
+}
+
+.box3 {
+    background-color: #FFB901;
+    width: 20vw;
+    height: 20vw;
+    margin: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.box3:hover {
+    background-color: rgba(255, 185, 1, 0.85);
+}
+
+.box4 {
+    background-color: #7FBA00;
+    width: 20vw;
+    height: 20vw;
+    margin: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.box4:hover {
+    background-color: rgba(127, 186, 0, 0.85);
+}
+
+
+/* --- */
+
+h1,
+h2 {
+    text-align: center;
+    color: #737373;
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-size: 3vw;
+    margin-bottom: 0.1em;
+    margin-top: 0.4em;
+}
+
+h2 {
+    font-size: 1.5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.2vw;
+    margin-bottom: 0;
+    margin-top: 0.1vw;
+    text-align: center;
+    color: #737373;
+    font-family: 'Roboto';
+}
+
+p {
+    color: white;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+a h3:hover {
+    color: darkviolet;
+}
+
+...
